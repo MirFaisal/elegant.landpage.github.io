@@ -120,6 +120,9 @@ body {
         margin-top: 5px;
     }
     .grid-2, .grid-3 {
+    .grid-2 {
+    }
+    .grid-3 {
         grid-template-columns: 1fr;
     }
     .grid-3 div p {
@@ -127,6 +130,7 @@ body {
         padding: 1px 20px;
     }
 }
+
 @media (max-width:600px) {
     .showcase::after {
         height: 50vh;
@@ -146,7 +150,10 @@ body {
         font-size: 1rem;
         margin-top: 5px;
     }
-    .grid-2, .grid-3 {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+    .grid-3 {
         grid-template-columns: 1fr;
     }
     .grid-3 div p {
@@ -172,6 +179,12 @@ body {
     .content img {
         width: 180px;
         height: 180px;
+    }
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+    .grid-3 {
+        grid-template-columns: 1fr;
     }
     .grid-3 div p {
         font-size: .7rem;

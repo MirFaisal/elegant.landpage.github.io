@@ -127,7 +127,7 @@ body {
         padding: 1px 20px;
     }
 }
-@media (max-width:400px) {
+@media (max-width:600px) {
     .showcase::after {
         height: 50vh;
     }

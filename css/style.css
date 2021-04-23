@@ -102,7 +102,7 @@ body {
 
 @media (max-width:500px) {
     .showcase::after {
-        height: 50vh;
+        height: 70vh;
     }
     .content {
         top: 2%;
@@ -131,9 +131,9 @@ body {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:400px) {
     .showcase::after {
-        height: 50vh;
+        height: 65vh;
     }
     .content {
         top: 2%;
